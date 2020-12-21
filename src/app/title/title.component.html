@@ -1,0 +1,16 @@
+<p>Title works!</p>
+
+<button (click)="userStrict()">Нажми меня!</button>
+<div *ngIf="userStricts; else dot">
+    <div *ngFor="let CarDe of CarDes">
+        <h2>{{CarDe.brandName}}</h2>
+        <p>{{CarDe.modelName}}</p>
+        <p>{{CarDe.priceInRub}}</p>
+    </div>
+</div>
+
+
+
+<ng-template #dot>
+
+</ng-template>
