@@ -1,0 +1,19 @@
+<div *ngIf="pagecar">    
+    <div class="header">
+        <h2>Инфомация о машине</h2>
+        <table border="1">
+            <header>
+                <tr>
+                    <th>Бренд</th>
+                    <th>Модель</th>
+                    <th>Цена (руб.)</th>
+                </tr>            
+                <tr>
+                    <td>{{pagecar.brandName}}</td>
+                    <td>{{pagecar.modelName}}</td>
+                    <td>{{pagecar.priceInRub}}</td>
+                </tr>
+            </header>
+        </table>        
+    </div>
+</div>

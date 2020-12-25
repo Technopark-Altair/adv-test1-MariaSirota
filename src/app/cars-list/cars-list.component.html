@@ -1,0 +1,13 @@
+<div class="header">
+    <h2  style="margin: 2px;">Задание на контрольную работу #1</h2>
+    <h4 style="margin: 0px;">Создать Angular приложение c <i>Angular routing</i></h4>
+</div>
+
+<div class="name">
+    <h2><a [routerLink]='["/"]'>Home</a></h2>
+    <div *ngFor="let carlis of carlist" >
+        <h2>
+            <a [routerLink]='["pagecar", carlis.id]'>{{carlis.brandName}}</a>            
+        </h2>
+    </div>
+</div>
