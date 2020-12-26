@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header table{border-collapse: collapse;}
+
+.header table td:hover{background-color: bisque; color: black; transition: 0.7s all;}
+
+.header h2, table{cursor: pointer;}
+
+.header tr td, th{padding: 10px;}
+
+.header li a{cursor: pointer; outline:none;}
+
+.name{display: flex; flex-direction: row; justify-content: center;
+    align-items: center;}
+
+.name a{margin-left: 15px; text-decoration: none; color: red; cursor: pointer;}   
+
+.name a:hover{color: rgb(8, 3, 26); text-decoration: overline; text-decoration: underline; transition: 0.5s all;}
+

@@ -1,9 +1,13 @@
- import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TitleComponent } from './title/title.component';
+import { CarsListComponent } from './cars-list/cars-list.component';
+import { PagecarComponent } from './pagecar/pagecar.component';
 
 const routes: Routes = [
-  {path: 'title', component: TitleComponent}
+  //Подключаем компонент 'cars-list'.
+   //Подключаем компонент 'pagecar/:id' - чтобы переходить к определённому авто.
+  {path: "cars-list", component: CarsListComponent},
+  {path: "pagecar/:id", component: PagecarComponent}
 ];
 
 @NgModule({

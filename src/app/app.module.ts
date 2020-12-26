@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { TitleComponent } from './title/title.component';
+import { CarsListComponent } from './cars-list/cars-list.component';
+import { PagecarComponent } from './pagecar/pagecar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TitleComponent
+    CarsListComponent,
+    PagecarComponent
   ],
   imports: [
     BrowserModule,
